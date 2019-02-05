@@ -1,4 +1,6 @@
-This script contains demosntrative codes to calculate 1) regulatory potential and 2)decay distances-depndent correlation between RP and TF-gene associations.
+This script contains demosntrative codes to calculate:
+1) regulatory potentials 
+2) decay distances-depndent correlation between RP and TF-gene associations.
 
 # Data preprocessing:
 
