@@ -2,7 +2,7 @@ This script contains demosntrative codes to calculate regulatory potential condi
 
 ## Required files (Demo)
 1. hg38_TSS_bin.csv: https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_TSS_bin.csv
-2. ChIPseq_occupancy_100bp_bin.hdf5:
+2. ChIPseq_occupancy_100bp_bin.hdf5: https://bitbucket.org/liulab/tf_regulatory_distance/downloads/TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5
 3. hg38_H1_bin100bp_TAD.p
 
 ## Note: 
