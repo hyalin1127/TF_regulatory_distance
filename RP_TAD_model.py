@@ -37,7 +37,7 @@ def within_TAD_RP_model(RP_distance_constant,bindings_bins,hg38_TSS_bin_list,H1_
 def prepare_optparser():
     usage = "usage: python %prog ......"
     description = "Input a TF ChIPseq file and TF-gene expression correlation, output correlation between RP and TF-gene correlation."
-    description = "Demo command: python /Users/chen-haochen/Dropbox/workspace/Cistrome_TAD/Bitbucket/RP_TAD_model.py -T TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5 -C pearson_correlation_record_df.p -S hg38_TSS_bin.csv -A hg38_H1_bin100bp_TAD.p"
+    description = "Demo command: python RP_TAD_model.py -T TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5 -C pearson_correlation_record_df.p -S hg38_TSS_bin.csv -A hg38_H1_bin100bp_TAD.p"
     optparser = OptionParser(version="%prog v1.00", description=description, usage=usage, add_help_option=False)
 
     optparser.add_option("-h","--help",action="help",help="Show this help message and exit.")
