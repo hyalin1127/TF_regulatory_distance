@@ -11,3 +11,6 @@ This script contains demosntrative codes to calculate regulatory potential condi
 	
 ## Usage:
 python RP_TAD_model/RP_TAD_model_bitbucket.py 
+
+## Output:
+CSV file: index as recay distances, columns as TF samples, and cells as pearson correlation between RP and gene-TF correlation.
