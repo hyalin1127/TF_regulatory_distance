@@ -1,7 +1,7 @@
 This script contains demosntrative codes to calculate regulatory potential conditioning on different decay distances.
 
 ## Required files (Demo)
-1. hg38_TSS_bin.csv: 
+1. hg38_TSS_bin.csv: https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_TSS_bin.csv
 2. ChIPseq_occupancy_100bp_bin.hdf5:
 3. hg38_H1_bin100bp_TAD.p
 
