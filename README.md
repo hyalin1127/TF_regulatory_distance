@@ -33,7 +33,7 @@ python Bitbucket_hg38_TAD_bin_conversion.py
 ```
 
 #### Usage (Demo):
-python /Users/chen-haochen/Dropbox/workspace/Cistrome_TAD/Bitbucket/RP_TAD_model.py -T TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5 -C pearson_correlation_record_df.p -S hg38_TSS_bin.csv -A hg38_H1_bin100bp_TAD.p
+python RP_TAD_model.py -T TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5 -C pearson_correlation_record_df.p -S hg38_TSS_bin.csv -A hg38_H1_bin100bp_TAD.p
 
 #### Output:
 
