@@ -10,15 +10,28 @@ python Bitbucket_hg38_TAD_bin_conversion.py
 
 # TF regulatory distance derivation #
 
-#### Required files (Demo)
+#### Required files (Demo):
 
 1. [hg38_TSS_bin.csv](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_TSS_bin.csv): TSS coordinates and corresponding bin / TAD
 2. [ChIPseq_occupancy_100bp_bin.hdf5](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5): each key/value contains sample_name/peak_bins. What provided is a demonstrative file containing TEAD1 and YY1 ChIPseqs.
 3. [pearson_correlation_record_df](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/pearson_correlation_record_df.p): TF-gene expression correlations
 4. hg38_H1_bin100bp_TAD.p
 
-#### Usage:
-python RP_TAD_model/RP_TAD_model_bitbucket.py 
+#### Arguments: 
+
+```
+-T TF_OCCUPANCY_FILE, --TFChipSeq=TF_OCCUPANCY_FILE
+                        Name of TF_occupancy_file
+-C CORRELATION_FILE, --Correlation=CORRELATION_FILE
+                        Name of TF-gene icorrelation_file
+-S HG38_TSS_INFO, --TSS=HG38_TSS_INFO
+                        Name of hg38_TSS_info file
+-A HG38_BIN100BP_TAD_INFO, --TAD=HG38_BIN100BP_TAD_INFO
+                        hg38_bin100bp_TAD_info
+```
+
+#### Usage (Demo):
+python /Users/chen-haochen/Dropbox/workspace/Cistrome_TAD/Bitbucket/RP_TAD_model.py -T TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5 -C pearson_correlation_record_df.p -S hg38_TSS_bin.csv -A hg38_H1_bin100bp_TAD.p
 
 #### Output:
 
