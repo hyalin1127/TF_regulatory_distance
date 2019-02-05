@@ -17,7 +17,7 @@ python Bitbucket_hg38_TAD_bin_conversion.py
 1. [hg38_TSS_bin.csv](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_TSS_bin.csv): TSS coordinates and corresponding bin / TAD
 2. [ChIPseq_occupancy_100bp_bin.hdf5](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5): each key/value contains sample_name/peak_bins. What provided is a demonstrative file containing TEAD1 and YY1 ChIPseqs.
 3. [pearson_correlation_record_df](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/pearson_correlation_record_df.p): TF-gene expression correlations
-4. hg38_H1_bin100bp_TAD.p: Dictionary with bin as keys and TAD as values.
+4. hg38_H1_bin100bp_TAD.p: Dictionary with bin as keys and TAD as values. Can be derived in 'Data Preprocessing' section.
 
 #### Arguments: 
 
