@@ -8,7 +8,7 @@ This script contains demosntrative codes to calculate:
 2. hg38_H1_bin100bp_TAD.p can be derived using provided scripts with provided files([hg38_window100bp_dict.p](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_window100bp_dict.p), [hg38_H1_domain.txt](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_H1_domain.txt))
 
 #### Usage:
-python Bitbucket_hg38_TAD_bin_conversion.py
+python hg38_TAD_bin.py 
 
 # TF regulatory distance derivation #
 
