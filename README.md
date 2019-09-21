@@ -50,4 +50,4 @@ python RP_TAD_model.py -T TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5 -C pearson_c
 
 #### Output:
 
-CSV file: index as recay distances, columns as TF samples, and cells as pearson correlation between RP and gene-TF correlation.
+CSV file: index as recay distances, columns as TF samples, and cells as pearson correlation between RP and gene-TF expression correlation.
