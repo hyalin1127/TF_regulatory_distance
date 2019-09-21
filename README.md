@@ -2,6 +2,13 @@ This script contains demosntrative codes to calculate:
 1) regulatory potentials 
 2) decay distances-depndent correlation between RP and TF-gene associations.
 
+# Requirements:
+Python >= 3.6
+Pandas >= 0.24.2
+h5py >= 2.0.0
+Scipy >= 1.1.0
+Numpy >= 1.14.2
+
 # Data preprocessing:
 
 1. All coordinates in required files are transformed into 100bp bin with hg38 assembly. 
