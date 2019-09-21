@@ -9,7 +9,10 @@ h5py >= 2.0.0
 Scipy >= 1.1.0
 Numpy >= 1.14.2
 
-# Data preprocessing:
+# Installation:
+git clone https://chenhaochen@bitbucket.org/liulab/tf_regulatory_distance.git
+
+# Required data preprocessing:
 
 1. All coordinates in required files are transformed into 100bp bin with hg38 assembly. 
 2. hg38_H1_bin100bp_TAD.p can be derived using provided scripts with provided files([hg38_window100bp_dict.p](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_window100bp_dict.p), [hg38_H1_domain.txt](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_H1_domain.txt))
