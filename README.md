@@ -23,7 +23,7 @@ python hg38_TAD_bin.py
 # TF regulatory distance derivation #
 
 #### Explanation:
-This script 1) calculates RP, and 2) derive the regulatory distance correlation between RP and gene-Tf correlation.
+This script 1) calculates RP, and 2) derive the regulatory distance-dependent correlation between RP and gene-TF correlation.
 
 #### Required files (Demo):
 
