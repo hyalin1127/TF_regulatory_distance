@@ -22,6 +22,9 @@ python hg38_TAD_bin.py
 
 # TF regulatory distance derivation #
 
+#### Explanation:
+This script 1) calculates RP, and 2) derive the regulatory distance correlation between RP and gene-Tf correlation.
+
 #### Required files (Demo):
 
 1. [hg38_TSS_bin.csv](https://bitbucket.org/liulab/tf_regulatory_distance/downloads/hg38_TSS_bin.csv): TSS coordinates and corresponding bin / TAD
