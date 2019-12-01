@@ -54,6 +54,8 @@ python RP_TAD_model.py -T TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5 -C pearson_c
 
 CSV file: index as recay distances, columns as TF samples, and cells as pearson correlation between RP and gene-TF expression correlation.
 
-### Citations:
+### Results:
+The deriving TF regulatory distance can be visualized as follows:
+
 
 
