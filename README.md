@@ -56,6 +56,6 @@ CSV file: index as recay distances, columns as TF samples, and cells as pearson 
 
 ### Results:
 The deriving TF regulatory distance can be visualized as follows:
-
+![TF regulatory distance demo](https://github.com/hyalin1127/TF_regulatory_distance/blob/master/Regulatory_distance_demo.png)
 
 
