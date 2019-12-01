@@ -3,14 +3,14 @@ This script contains demosntrative codes to calculate:
 2) decay distances-depndent correlation between RP and TF-gene associations.
 
 # Requirements:
-Python >= 3.6
-Pandas >= 0.24.2
-h5py >= 2.0.0
-Scipy >= 1.1.0
-Numpy >= 1.14.2
+Python >= 3.6  
+Pandas >= 0.24.2  
+h5py >= 2.0.0  
+Scipy >= 1.1.0  
+Numpy >= 1.14.2  
 
 # Installation:
-git clone https://chenhaochen@bitbucket.org/liulab/tf_regulatory_distance.git
+git clone https://hyalin1127@github.org/tf_regulatory_distance.git
 
 # Required data preprocessing:
 
