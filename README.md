@@ -23,7 +23,9 @@ python hg38_TAD_bin.py
 # TF regulatory distance derivation #
 
 #### Explanation:
-This script 1) calculates RP, and 2) derive the regulatory distance-dependent correlation between RP and gene-TF correlation.
+This script will perform the following tasks:  
+1) calculates regulatory potential (RP) of transcription faactors.  
+2) derive the regulatory distance-dependent correlation between RP and gene-TF correlation.  
 
 #### Required files (Demo):
 
@@ -51,3 +53,7 @@ python RP_TAD_model.py -T TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5 -C pearson_c
 #### Output:
 
 CSV file: index as recay distances, columns as TF samples, and cells as pearson correlation between RP and gene-TF expression correlation.
+
+### Citations:
+
+
