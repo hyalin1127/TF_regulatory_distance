@@ -15,7 +15,7 @@ git clone https://hyalin1127@github.org/tf_regulatory_distance.git
 # Required data preprocessing:
 
 1. All coordinates in required files are transformed into 100bp bin with hg38 assembly. 
-2. hg38_H1_bin100bp_TAD.p can be derived using provided scripts with provided files([hg38_window100bp_dict.p](https://github.com/hyalin1127/TF_regulatory_distance/blob/master/TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5), [hg38_H1_domain.txt](https://github.com/hyalin1127/TF_regulatory_distance/blob/master/hg38_H1_domain.txt))
+2. hg38_H1_bin100bp_TAD.p can be derived using provided scripts with provided files([hg38_window100bp_dict.p](https://github.com/hyalin1127/TF_regulatory_distance/blob/master/hg38_window100bp_dict.p), [hg38_H1_domain.txt](https://github.com/hyalin1127/TF_regulatory_distance/blob/master/hg38_H1_domain.txt))
 
 #### Usage:
 python hg38_TAD_bin.py 
