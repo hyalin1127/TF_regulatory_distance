@@ -28,7 +28,6 @@ This script will perform the following tasks:
 2) derive the regulatory distance-dependent correlation between RP and gene-TF correlation.  
 
 #### Required files (Demo):
-
 1. [hg38_TSS_bin.csv](https://github.com/hyalin1127/TF_regulatory_distance/blob/master/hg38_TSS_bin.csv): TSS coordinates and corresponding bin / TAD
 2. [ChIPseq_occupancy_100bp_bin.hdf5](https://github.com/hyalin1127/TF_regulatory_distance/blob/master/TEAD1_YY1_ranked_occupancy_100bp_bin.hdf5): each key/value contains sample_name/peak_bins. What provided is a demonstrative file containing TEAD1 and YY1 ChIPseqs.
 3. [pearson_correlation_record_df](https://github.com/hyalin1127/TF_regulatory_distance/blob/master/TEAD_YY1_pearson_correlation_record_df.p): TF-gene expression correlations
