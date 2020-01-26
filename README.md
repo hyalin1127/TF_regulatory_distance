@@ -60,4 +60,7 @@ The deriving TF regulatory distance can be visualized as follows:
 ### Contact:
 Chen-Hao Chen (chen-hao_chen@dfci.harvard.edu)
 
+### Reference:
+https://www.biorxiv.org/content/10.1101/582270v1.abstract
+
 
